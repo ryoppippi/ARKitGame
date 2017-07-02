@@ -2,4 +2,4 @@
 
 This is my first gameing app using Apple ARKit on iOS11.
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gbb_hiHZMYg" frameborder="0" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/gbb_hiHZMYg&feature=share/0.jpg)](http://www.youtube.com/watch?v=gbb_hiHZMYg&feature=share)
