@@ -21,8 +21,6 @@ class ViewController: UIViewController {
     var timer : Timer!
     var timeCount : Float = 30
     
-    
-    
     var counter:Int = 0 {
         didSet {
             counterLabel.text = "\(counter)"
@@ -125,9 +123,9 @@ class ViewController: UIViewController {
                     SCNTransaction.commit()
                     if timeCount > 0 {
                         counter += 1
+                        node.removeFromParentNode()
+                        addObject()
                     }
-                    node.removeFromParentNode()
-                    addObject()
                 }
             }
             
